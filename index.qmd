@@ -1,0 +1,370 @@
+---
+metadata-files: 
+    - _variables.yml
+title: "{{< var course.subtitle >}}"
+author: "{{< var instructor.name-wo-title >}}"  
+date-format: long
+from: markdown+emoji
+bibliography: data/dataviz.bib
+csl: data/dataviz.csl
+execute:
+  freeze: auto
+  echo: true
+  fig-width: 6
+  fig-height: 5
+format:
+  revealjs:
+    theme: dataviz.scss
+    footer: '{{< var course.title >}} | {{< var course.location >}} | {{< var course.date >}}'
+    header-includes: |
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet"/>
+    slide-number: true
+    show-slide-number: all
+    transition: fade
+    progress: true
+    multiplex: false
+    scrollable: false
+    preview-links: false
+    hide-inactive-cursor: true
+    highlight-style: printing
+    pause: true
+title-slide-attributes:
+    data-background-image: "img/bgimage2.png"
+    data-background-position: 0% 95%
+    data-background-size: contain
+---
+
+## Hegemoniale Narrative {.medium}
+
+::: {.secfont style="font-size:2.3rem;text-align:center;"}
+"Ein Bild sagt mehr als Tausend Worte"
+:::
+
+- Hegemoniale Narrative = wirkungsvolle, sinnstiftende Erzählungen
+- Verbreitung meist verbal, oft unter Einsatz von [Sprachbildern]{.marker-hl} [(Exportweltmeister, Schuldenbremse, Steuerlawine, soziale Hängematte, Vollkasko-Mentalität, Reformstau, schlanker Staat, etc.)]{.secfont style="font-size:1.5rem"}
+- Visuelle Darstellungen (vermeintlich) objektiver Zahlen können Narrative stärken - aber auch [entkräften]{.marker-hl}
+- Produktion von Grafiken und der zugrundeliegenden Daten bewegen sich [nicht außerhalb]{.marker-hl} der Gesellschaft 
+
+## Agenda der Präsentation {.medium}
+
+1. Entwicklung der Datenvisualisierung
+2. Beispiele von Visualisierungen zur Unterstützung von nicht-fortschrittlichen Narrativen
+3. Rezeption von Datenvisualisierung und 3 einfache Richtlinien
+4. Beispiele für Visualisierung zur Unterstützung von fortschrittlichen Narrativen
+
+# Die Stars der Visualisierung
+
+::: {.absolute top="90%" left="30%" width="400px" height="336px"}
+![](img/avatar_cool.png)
+:::
+
+::: footer
+:::
+
+## Meilensteine der Datenvisualisierung {.medium}
+
+![](img/timeline.png){height="500" fig-align="center"}
+
+::: {.aside}
+Quelle: @friendly:2008
+:::
+
+## William Playfair (1759-1823) {.smaller}
+
+![](img/playfair.png){height="500" fig-align="center"}
+
+::: {.aside}
+[erstellt: 1786]
+:::
+
+## John Snow (1813-1858) {.smaller}
+
+::: {.columns}
+::: {.column width=60%}
+![](img/cholera_large.jpg){height="450" style="border: 1px solid;"}
+:::
+
+::: {.column width=35%}
+![](img/cholera_detail.png){height="450" style="border: 1px solid;"}
+:::
+:::
+
+::: {.aside}
+[erstellt: 1854]
+:::
+
+## Florence Nightingale (1820-1910) {.medium}
+
+![](img/nightingale.jpg){fig-align="center" height="500"}
+
+::: {.aside}
+[erstellt: 1859]
+:::
+
+## Charles Joseph Minard (1781-1870) {.smaller}
+
+![](img/minard.png){fig-align="center"}
+
+::: {.aside}
+[erstellt: 1869]
+:::
+
+## W.E.B. Du Bois (1868-1963) {.smaller}
+
+::: {.columns}
+::: {.column}
+![](img/dubois1.png){height="500" style="border: 1px solid;"}
+:::
+
+::: {.column}
+![](img/dubois2.png){height="500" style="border: 1px solid;"}
+:::
+:::
+
+::: {.aside}
+[erstellt: 1890]
+:::
+
+## Otto Neurath (1882-1945) {.smaller}
+
+![](img/neurath.png){height="500" fig-align="center"}
+
+::: {.aside}
+[erstellt: 1943]
+:::
+
+## Der Aufstieg datengetriebener Wissenschaft {.smaller}
+
+::: {.columns}
+::: {.column width=50%}
+![](img/empirical.png) 
+:::
+::: {.column width=50%}
+Am Beispiel Wirtschaftswissenschaft zeigt sich der stetige [Aufstieg von empirischer Forschung]{.hl .hl-dred}. In den 1980ern war etwa ein Drittel der Publikationen empirisch, heute weit mehr als die Hälfte. Die Basis dafür ist bessere Datenverfügbarkeit. <br><br> Diese Auswertung basiert auf 134,892 publizierten Artikeln aus 80 Fachzeitschriften zwischen 1980 und 2015. 
+:::
+:::
+
+::: {.aside}
+Quelle: @angrist:2017
+:::
+
+## Die Grenzen der Daten {.medium}
+
+::: {.columns}
+::: {.column width=30%}
+![](img/bias.png)
+:::
+::: {.column width=70%}
+- Daten sind niemals ein perfektes Abbild der Welt!
+- Sie sind nur eine Teilmenge: nicht Kriminalität sondern [erfasste]{.hl .hl-dred} Kriminalität
+- Information wird von Mensch und Maschine gesammelt und verarbeitet: Ungenauigkeiten und Fehler sind [unvermeidbar]{.hl .hl-blue}!
+- Kognitive und statistische Verzerrungen
+- Blinde Flecken in der Datenerhebung (Frauen, Überreiche, etc.)
+:::
+:::
+
+::: {.aside}
+Quelle: [XKCD](https://xkcd.com/2618/)
+:::
+
+
+# Visualisierungen für rückschrittliche Narrative
+
+::: {.absolute top="90%" left="30%" width="400px" height="336px"}
+![](img/avatar_shrug.png)
+:::
+
+::: footer
+:::
+
+## Irreführende Visualisierung in der politischen Kommunikation {.medium}
+
+::: {.columns}
+::: {.column width=50%}
+![](img/trumptweet.png){height="450"}
+:::
+::: {.column width=50% .fragment}
+<br>
+![](img/voting-election.gif){style="border: 1px solid;"}
+:::
+:::
+
+## Migration als Angriff auf Europa {.medium}
+
+::: {.columns}
+::: {.column}
+![](img/migration1.png){height="450" fig-align="center"}
+:::
+::: {.column .fragment}
+![](img/migration2.png){height="450" fig-align="center"}
+:::
+:::
+
+::: {.aside}
+Quelle: [The Correspondent](https://thecorrespondent.com/664/how-maps-in-the-media-make-us-more-negative-about-migrants/738023272448-bac255ba)
+:::
+
+## Vertuschung von Todesfällen durch Schusswaffen {.medium}
+
+::: {.columns}
+::: {.column}
+![](img/gun_deaths.jpg){height="450" fig-align="center"}
+:::
+::: {.column .fragment}
+![](img/gun_deaths_2.jpg){height="450" fig-align="center"}
+:::
+:::
+
+::: {.aside}
+Quelle: [Management Weekly](https://managementweekly.org/misleading-data-visualization/)
+:::
+
+# Rezeption von Grafiken und 3 Richtlinien
+
+::: {.absolute top="90%" left="30%" width="400px" height="336px"}
+![](img/avatar_finger.png)
+:::
+
+::: footer
+:::
+
+
+## Gestalt-Prinzipien? {.smaller}
+
+Die Gestalt-Prinzipien bieten einen psychologischen Ansatz dafür, wie das menschliche Gehirn visuelle Informationen wahrnimmt und ordnet, indem ähnliche Elemente gruppiert, Muster erkannt und komplexe Bilder vereinfacht werden.
+
+![](img/gestalt_header2.png){height="250" fig-align="center"}
+
+Gestaltpsychologie entwickelte sich in den 1920er Jahren zu einer eigenständigen Theorie und untersucht die kognitiven Mechanismen, Phänomäne wahrzunehmen und einzuordnen.
+
+## Ausgewählte Prinzipien {.smaller}
+
+- [Nähe]{.hl .hl-dred .secfont} Räumliche Nähe kann Elemente als Teil einer Einheit wirken lassen.
+- [Ähnlichkeit]{.hl .hl-blue .secfont} Ähnliche Element werden als zusammengehörig wahrgenommen.
+- [Verbundenheit]{.hl .hl-dred .secfont} Miteinander verbundene Elemente werden als eine Einheit wahrgenommen.
+- [Kontinuität]{.hl .hl-blue .secfont} Das Gehirn erkennt sinnvolle Fortsetzungen.
+- [Geschlossenheit]{.hl .hl-dred .secfont} Das Auge nimmt eine vollendete Form wahr, selbst wenn Teile der Form fehlen oder unvollständig sind.
+- [Gemeinsames Schicksal]{.hl .hl-blue .secfont} Objekte werden als Teil einer Gruppe wahrgenommen, wenn sie auf derselben Bahn platziert sind.
+
+::: {.aside}
+Quelle: @healy:2018
+:::
+
+
+## 1. Visualisiere die Daten sorgfältig und gewissenhaft {.medium}
+
+::: {.columns}
+::: {.column width=30%}
+[Nein:]{.hl .hl-dred .secfont style="font-size:1.3rem;"}
+![](img/princ2a.png){height=230 style="vertical-align:top;"}
+<br>
+[OK:]{.hl .hl-green .secfont style="font-size:1.3rem;"}
+![](img/princ2b.png){height=230 style="vertical-align:top;"}
+:::
+::: {.column width=70%}
+- Wähle einen korrekten Grafik-Typ
+- Lege Priorität auf Genauigkeit, Klarheit und Integrität
+- Vermeide irreführende Praktiken wie Abschneiden von Achsen, Verwenden sekundärer Achsen, unlautere Auswahl von Daten, mangelnde Kontextualisierung, etc.
+:::
+:::
+
+::: {.aside}
+Quelle: @dougherty:2021
+:::
+
+## Negativ-Beispiel {.medium}
+
+::: {.columns}
+::: {.column}
+![](img/accuracy1.jpeg){height="450" fig-align="center"}
+:::
+::: {.column .fragment}
+![](img/accuracy2.jpg){height="450" fig-align="center"}
+:::
+:::
+
+::: {.aside}
+Quelle: [Patient](https://patient.info/news-and-features/whats-the-average-height-for-men)
+:::
+
+## 2. Reduziere Ablenkungen {.medium}
+
+::: {.columns}
+::: {.column width=30%}
+[Nein:]{.hl .hl-dred .secfont style="font-size:1.3rem;"}
+![](img/principle4a.png){height=230 style="vertical-align:top;"}
+<br>
+[OK:]{.hl .hl-green .secfont style="font-size:1.3rem;"}
+![](img/principle4b.png){height=230 style="vertical-align:top;"}
+:::
+::: {.column width=70%}
+- Unnötige visuelle Elemente lenken die Aufmerksamkeit weg von den wichtigen Daten
+- Vermeide grafische Elemente, die keine Information transportieren
+- Bestandteile wie etwa Achsen-Teilstriche oder Gitternetzlinien sollten entfernt oder zumindest reduziert werden
+- Überlege sorgsam, welche visuellen Elemente wirklich nötig für das Interpretieren der Grafik sind
+:::
+:::
+
+::: {.aside}
+Quelle: @dougherty:2021
+:::
+
+
+## 3. Integriere Text sinnvoll in die Grafik {.medium}
+
+::: {.columns}
+::: {.column width=30%}
+[Nein:]{.hl .hl-dred .secfont style="font-size:1.3rem;"}
+![](img/princ3a.png){height=250 style="vertical-align:top;"}
+<br>
+[OK:]{.hl .hl-green .secfont style="font-size:1.3rem;"}
+![](img/princ3b.png){style="vertical-align:top;"}
+:::
+::: {.column width=70%}
+- Vermeide, dass Leser:innen ihren Kopf drehen müssen um die Bezeichnungen zu lesen
+- Überlege eine logische Reihung der Grafik (alphabetisch, nach Werten, etc.)
+- Direkte Bezeichnung ist besser als eine Legende
+- Wähle sinnvolle Titel, die auf die Botschaft fokussieren
+:::
+:::
+
+::: {.aside}
+Quelle: @dougherty:2021
+:::
+
+
+# Visualisierungen für fortschrittliche Narrative
+
+::: {.absolute top="90%" left="30%" width="400px" height="336px"}
+![](img/avatar_break.png)
+:::
+
+::: footer
+:::
+
+
+## Vermögenskonzentration
+
+![](img/alt_map.png){fig-align="center"}
+
+## Überreichtum
+
+![](img/bsp_galaxy_of_wealth.png){fig-align="center"}
+
+## Geschlechtsspezifische Ungleichheit in Kinderbetreuung
+
+![](img/bsp_careage.png){fig-align="center"}
+
+## Klimakrise
+
+![](img/antarctica.png){fig-align="center"}
+
+## Erderhitzung
+
+![](img/bsp_hitzetagewien.png){fig-align="center"}
+
+
+## Verwendete Literatur {.bibstyle}
+
+:::footer
+:::

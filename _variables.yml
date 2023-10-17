@@ -1,0 +1,26 @@
+author: Matthias Schnetzer
+
+instructor:
+  name: Dr. Matthias Schnetzer
+  name-wo-title: Matthias Schnetzer
+  employer: "Arbeiterkammer Wien & WU Wien"
+  email: matthias.schnetzer@akwien.at
+  url: "https://mschnetzer.github.io"
+  twitter: matschnetzer
+  github: mschnetzer
+  
+course:
+  title: Datenvisualisierung und hegemoniale Narrative
+  subtitle: "Datenvisualisierung und Hegemonie"
+  date: "19.-22. Oktober 2023"
+  location: "Momentum: Hegemonie"
+  icon: fa-chart-column
+  icon-bg: fa-comment
+  url: "https://mschnetzer.github.io/dataviz-hegemonie-2023"
+  copyright_year: "2023"
+
+university:
+  name: Vienna University of Economics and Business
+  department: Department of Economics
+  url: "https://www.wu.ac.at"
+  
