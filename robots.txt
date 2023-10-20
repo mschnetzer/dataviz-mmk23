@@ -1,1 +1,1 @@
-Sitemap: https://mschnetzer.github.io/dataviz-ak-2023/sitemap.xml
+Sitemap: https://mschnetzer.github.io/dataviz-mmk23/sitemap.xml
