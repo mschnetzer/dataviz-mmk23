@@ -4,14 +4,7 @@
     "href": "index.html#hegemoniale-narrative",
     "title": "Datenvisualisierung und Hegemonie",
     "section": "Hegemoniale Narrative",
-    "text": "Hegemoniale Narrative\n\n“Ein Bild sagt mehr als Tausend Worte”\n\n\nHegemoniale Narrative = wirkungsvolle, sinnstiftende Erzählungen\nVerbreitung meist verbal, oft unter Einsatz von Sprachbildern (Exportweltmeister, Schuldenbremse, Steuerlawine, soziale Hängematte, Vollkasko-Mentalität, Reformstau, schlanker Staat, etc.)\nVisuelle Darstellungen (vermeintlich) objektiver Zahlen können Narrative stärken - aber auch entkräften\nProduktion von Grafiken und der zugrundeliegenden Daten bewegen sich nicht außerhalb der Gesellschaft"
-  },
-  {
-    "objectID": "index.html#agenda-der-präsentation",
-    "href": "index.html#agenda-der-präsentation",
-    "title": "Datenvisualisierung und Hegemonie",
-    "section": "Agenda der Präsentation",
-    "text": "Agenda der Präsentation\n\nEntwicklung der Datenvisualisierung\nBeispiele von Visualisierungen zur Unterstützung von nicht-fortschrittlichen Narrativen\nRezeption von Datenvisualisierung und 3 einfache Richtlinien\nBeispiele für Visualisierung zur Unterstützung von fortschrittlichen Narrativen"
+    "text": "Hegemoniale Narrative\n\nHegemoniale Narrative = wirkungsvolle, sinnstiftende Erzählungen\nVerbreitung meist verbal, oft unter Einsatz von Sprachbildern (Exportweltmeister, Schuldenbremse, Steuerlawine, soziale Hängematte, Vollkasko-Mentalität, Reformstau, schlanker Staat, etc.)\nVisuelle Darstellungen (vermeintlich) objektiver Zahlen können Narrative stärken - aber auch entkräften\n\n\n“Ein Bild sagt mehr als Tausend Worte”\n\n\nProduktion von Grafiken und der zugrundeliegenden Daten bewegen sich im sozialen Raum und nicht außerhalb der Gesellschaft"
   },
   {
     "objectID": "index.html#meilensteine-der-datenvisualisierung",
@@ -77,27 +70,6 @@
     "text": "Die Grenzen der Daten\n\n\n\n\n\nDaten sind niemals ein perfektes Abbild der Welt!\nSie sind nur eine Teilmenge: nicht Kriminalität sondern erfasste Kriminalität\nInformation wird von Mensch und Maschine gesammelt und verarbeitet: Ungenauigkeiten und Fehler sind unvermeidbar!\nKognitive und statistische Verzerrungen\nBlinde Flecken in der Datenerhebung (Frauen, Überreiche, etc.)\n\n\n\n\n\nQuelle: XKCD"
   },
   {
-    "objectID": "index.html#irreführende-visualisierung-in-der-politischen-kommunikation",
-    "href": "index.html#irreführende-visualisierung-in-der-politischen-kommunikation",
-    "title": "Datenvisualisierung und Hegemonie",
-    "section": "Irreführende Visualisierung in der politischen Kommunikation",
-    "text": "Irreführende Visualisierung in der politischen Kommunikation"
-  },
-  {
-    "objectID": "index.html#migration-als-angriff-auf-europa",
-    "href": "index.html#migration-als-angriff-auf-europa",
-    "title": "Datenvisualisierung und Hegemonie",
-    "section": "Migration als Angriff auf Europa",
-    "text": "Migration als Angriff auf Europa\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuelle: The Correspondent"
-  },
-  {
-    "objectID": "index.html#vertuschung-von-todesfällen-durch-schusswaffen",
-    "href": "index.html#vertuschung-von-todesfällen-durch-schusswaffen",
-    "title": "Datenvisualisierung und Hegemonie",
-    "section": "Vertuschung von Todesfällen durch Schusswaffen",
-    "text": "Vertuschung von Todesfällen durch Schusswaffen\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuelle: Management Weekly"
-  },
-  {
     "objectID": "index.html#gestalt-prinzipien",
     "href": "index.html#gestalt-prinzipien",
     "title": "Datenvisualisierung und Hegemonie",
@@ -126,6 +98,13 @@
     "text": "Negativ-Beispiel\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuelle: Patient"
   },
   {
+    "objectID": "index.html#aktuelles-beispiel",
+    "href": "index.html#aktuelles-beispiel",
+    "title": "Datenvisualisierung und Hegemonie",
+    "section": "Aktuelles Beispiel",
+    "text": "Aktuelles Beispiel"
+  },
+  {
     "objectID": "index.html#reduziere-ablenkungen",
     "href": "index.html#reduziere-ablenkungen",
     "title": "Datenvisualisierung und Hegemonie",
@@ -138,6 +117,27 @@
     "title": "Datenvisualisierung und Hegemonie",
     "section": "3. Integriere Text sinnvoll in die Grafik",
     "text": "3. Integriere Text sinnvoll in die Grafik\n\n\nNein:   OK: \n\n\nVermeide, dass Leser:innen ihren Kopf drehen müssen um die Bezeichnungen zu lesen\nÜberlege eine logische Reihung der Grafik (alphabetisch, nach Werten, etc.)\nDirekte Bezeichnung ist besser als eine Legende\nWähle sinnvolle Titel, die auf die Botschaft fokussieren\n\n\n\n\n\nQuelle: Dougherty/Ilyankou (2021)"
+  },
+  {
+    "objectID": "index.html#irreführende-visualisierung-in-der-politischen-kommunikation",
+    "href": "index.html#irreführende-visualisierung-in-der-politischen-kommunikation",
+    "title": "Datenvisualisierung und Hegemonie",
+    "section": "Irreführende Visualisierung in der politischen Kommunikation",
+    "text": "Irreführende Visualisierung in der politischen Kommunikation"
+  },
+  {
+    "objectID": "index.html#migration-als-angriff-auf-europa",
+    "href": "index.html#migration-als-angriff-auf-europa",
+    "title": "Datenvisualisierung und Hegemonie",
+    "section": "Migration als Angriff auf Europa",
+    "text": "Migration als Angriff auf Europa\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuelle: The Correspondent"
+  },
+  {
+    "objectID": "index.html#manipulative-grafik-zu-todesfällen-durch-schusswaffen",
+    "href": "index.html#manipulative-grafik-zu-todesfällen-durch-schusswaffen",
+    "title": "Datenvisualisierung und Hegemonie",
+    "section": "Manipulative Grafik zu Todesfällen durch Schusswaffen",
+    "text": "Manipulative Grafik zu Todesfällen durch Schusswaffen\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuelle: Management Weekly"
   },
   {
     "objectID": "index.html#vermögenskonzentration",
